@@ -133,11 +133,9 @@ python rice_disease_pred_GUI.py
 - **Tkinter error:** Make sure Python was installed with Tkinter support.
 - **Image not loading:** Only PNG or JPG formats are supported.
 
-## Contact
-For questions or support, please open an issue on this repository or email [your.email@domain.com](mailto:your.email@domain.com).
 
 ## License
-This project is for educational and research purposes. Made as my final year project for my computer science degree in KNUST. 
+This project is for educational and research purposes. Made as my final year project for my computer science degree in KNUST with a coursemate. 
 
 ---
 

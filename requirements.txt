@@ -1,0 +1,9 @@
+# requirements.txt for Rice Disease Prediction GUI
+# Python 3.9 or 3.10 recommended
+
+Pillow>=8.0.0
+scikit-image>=0.18.0
+scikit-learn>=0.24.0
+tk
+numpy>=1.19.0
+jupyter

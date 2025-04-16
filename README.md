@@ -1,30 +1,44 @@
+Updated from this 
+
 # Rice Disease Prediction GUI
 
 A modern, user-friendly desktop application for predicting rice leaf diseases from images using a trained machine learning model.
 
 ## Features
-- **Image Upload:** Easily upload rice leaf images (PNG or JPG) for analysis.
-- **Disease Prediction:** Instantly predicts one of three common rice diseases using a pre-trained model.
+
+- **Image Upload:** Image upload and processing capabilities. Easily upload rice leaf images (PNG or JPG) for analysis.
+- **Disease Prediction:** Real-time disease prediction. Instantly predicts one of three common rice diseases using a pre-trained model.
 - **Responsive Modern GUI:**
   - Clean, two-column layout with dynamic resizing and responsive elements.
+  - User-friendly graphical interface using Tkinter
   - Dark mode toggle and modern sans-serif font for improved readability.
   - Button hover effects and clear visual feedback.
 - **Prediction Feedback:** Results are displayed in a styled, resizable info box.
 - **Error Handling:** User-friendly pop-up dialogs for errors and issues.
 - **Restart Functionality:** Restart the application at any time for a fresh session.
+- **Accuracy:** - High accuracy rate (80.56%)
 
 ## Supported Rice Diseases
 - Bacterial leaf blight
 - Brown spot
 - Leaf smut
 
-## Getting Started
+### Model
+- Uses Support Vector Machine (SVM) algorithm
+- Trained on a dataset of rice leaf images
+- Achieves 80.56% accuracy
+- Model is saved as `rice_pred.pkl`
 
-### Prerequisites
+### Dependencies
 - Python 3.9 or 3.10
+- scikit-learn
+- PIL (Python Imaging Library)
+- skimage
+- tkinter
+- numpy
 - Recommended: Use a virtual environment (e.g., `venv` or `conda`).
 
-
+## Getting Started
 
 ### Usage
 
@@ -135,6 +149,12 @@ rice-parakeet-main/
 - **Tkinter error:** Make sure Python was installed with Tkinter support.
 - **Image not loading:** Only PNG or JPG formats are supported.
 
+## Accuracy Metrics
+
+- Overall accuracy: 80.56%
+- Macro average precision: 0.80
+- Macro average recall: 0.82
+- Macro average F1-score: 0.81
 
 ## License
 This project is for educational and research purposes. Made as my final year project for my computer science degree in KNUST with a coursemate. 

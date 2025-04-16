@@ -1,4 +1,4 @@
-Updated from this 
+Picked up and Updated... Old Repo (https://github.com/ananingfosu/rice-parakeet)
 
 # Rice Disease Prediction GUI
 

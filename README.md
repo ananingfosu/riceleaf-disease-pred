@@ -27,6 +27,8 @@ A modern, user-friendly desktop application for predicting rice leaf diseases fr
 
 
 ### Usage
+
+## What its about
 1. Run the GUI:
    ```bash
    python rice_disease_pred_GUI.py
@@ -35,29 +37,8 @@ A modern, user-friendly desktop application for predicting rice leaf diseases fr
    - Upload a rice leaf image (PNG or JPG).
    - Click **Predict Disease** to see the result.
    - Click **Restart** to restart the application, or simply upload another image to predict again.
-
-### Folder Structure
-```
-rice-parakeet-main/
-├── model/
-│   └── rice_pred.pkl           # Trained ML model (required)
-├── images/
-│   └── rice.png                # Default preview image
-├── rice_disease_pred_GUI.py    # Main GUI application
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
-```
-
-## Notes
-- Ensure that `model/rice_pred.pkl` exists for predictions to work.
-- The GUI is responsive and will adjust to different window sizes.
-- All error messages are shown as pop-up dialogs for clarity.
-
-## Notes on Customization
-- You can modify the color palette and fonts in `rice_disease_pred_GUI.py` for a different look.
-- Add more disease classes by updating the model and label list.
-
-## For Developers
+  
+## Environment Setup and Running
 
 If you want to contribute or run this project on your own machine, follow these steps:
 
@@ -104,6 +85,27 @@ python rice_disease_pred_GUI.py
 - Use version control best practices (branches, pull requests, etc.) when contributing.
 
 ---
+
+### Folder Structure
+```
+rice-parakeet-main/
+├── model/
+│   └── rice_pred.pkl           # Trained ML model (required)
+├── images/
+│   └── rice.png                # Default preview image
+├── rice_disease_pred_GUI.py    # Main GUI application
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
+```
+
+### Notes
+- Ensure that `model/rice_pred.pkl` exists for predictions to work.
+- The GUI is responsive and will adjust to different window sizes.
+- All error messages are shown as pop-up dialogs for clarity.
+
+## Customization
+- You can modify the color palette and fonts in `rice_disease_pred_GUI.py` for a different look.
+- Add more disease classes by updating the model and label list.
 
 ## Jupyter Notebook Reference
 - The main notebook for model training and updates is: `Rice_Disease_Training.ipynb`

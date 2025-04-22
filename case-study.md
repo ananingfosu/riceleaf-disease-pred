@@ -82,4 +82,4 @@ This case study demonstrates how machine learning and modern software design can
 
 ---
 
-**Project Repository:** [remember to put repo link here]
+**Project Repository:** [[remember to put repo link here](https://github.com/ananingfosu/riceleaf-disease-pred)]
